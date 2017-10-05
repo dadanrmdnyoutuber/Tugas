@@ -1,0 +1,32 @@
+==========================
+Nama : Dadan Ramdani
+Tugas PASCAL
+==========================
+
+
+program MencariNilaiMaksimum;
+uses crt;
+var
+a,b,c,d:integer;
+begin
+write ('Mencari Nilai Maksimum :');
+
+write ('Masukan Nilai Pertama :'); readln (a);
+write ('Masukan Nilai kedua :'); readln (b);
+write ('Masukan Nilai Ketiga :'); readln (c);
+write ('MAsukan Nilai Keempat :'); readln (d);
+
+write;
+if (a>b) and (a>c) and (a>d) then
+write (r,'Nilai Maksimum')
+else
+if (b>a) and (b>c) and (b>d) then
+write (i,'Nilai Maksimum')
+else
+if (c>a) and (c>b) and (c>d) then
+write (n,'Nilai Maksimum')
+else
+if (d>a) and (d>b) and (d>c) then
+write (a, 'Nilai Maksimum');
+readkey;
+end.
