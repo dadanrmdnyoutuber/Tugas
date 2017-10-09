@@ -1,0 +1,30 @@
+=========================================================================
+Program Nilai_Mata_Kuliah;
+uses crt;
+var
+Alpro,SBO,RTI,BI,PS : integer;
+MatKul1,MatKul2,MatKul3,Matkul4,MatKul5 : string;
+begin
+   write('Masukan Nilai Alpro            : ');readln(Alpro);
+   write('Masukan Nilai SBO              : ');readln(SBO);
+   write('Masukan Nilai RTI              : ');readln(RTI);
+   write('Masukan Nilai Bahasa Indonesia : ');readln(BI);
+   write('Masukan Nilai Pancasila        : ');readln(PS);
+     if(Alpro>50) and (SBO>50) and (RTI>50) and (BI>50) and (PS>50) then
+        writeln('Anda Tidak Mendapat Remedial')
+     else
+     if(Alpro<=50) then
+        MatKul1 := 'Alpro';
+     if(SBO<=50) then
+        MatKul2 := 'SBO';
+     if(RTI<=50) then
+        MatKul3 := 'RTI';
+     if(BI<=50) then
+        MatKul4 := 'Bahasa Indonesia';
+     if(PS<=50) then
+        MatKul5 := 'Pancasila';
+      writeln;
+    writeln('Anda Mendapat Remedial : ',MatKul1,'-',MatKul2,'-',MatKul3,'-',MatKul4,'-',MatKul5);
+  readkey;
+end.
+=========================================================================

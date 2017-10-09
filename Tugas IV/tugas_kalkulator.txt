@@ -1,0 +1,29 @@
+=============================================
+Program Kalkulator;
+uses crt;
+var
+z,c : integer;
+operasi   : char;
+Hasil     : real;
+begin
+writeln('Kalkulator');
+writeln('##################');
+writeln;
+writeln('operasi : (+) (-) (*) (/)');
+writeln;
+write('Masukan Angka  : ');readln(z);
+write('Masukan Simbol : ');readln(operasi);
+write('Masukan Angka  : ');readln(c);
+    if (operasi='+') then
+       Hasil := z+c;
+    if (operasi='-') then
+       Hasil := z-c;
+    if (operasi='*') then
+       Hasil := z*c;
+    if (operasi='/') then
+       Hasil := z/c;
+  writeln;
+    writeln('Hasil Operasi : ',Hasil:2:2);
+ readln;
+end.
+=============================================
